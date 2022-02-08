@@ -9,7 +9,10 @@ function sayHello(name){
         return "Hello, World!";
     }else if (name === false){
       return "Hello, World!";
-    } else{
+    }else  if( name === undefined){
+        return "Hello, World!"
+    }
+    else{
         return "Hello, " + name +"!";
     }
 
