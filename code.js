@@ -10,6 +10,7 @@ function sayHello(name){
    } else{
         return "Hello, " + name +"!";
     }
+
 }
 
 //isFive function
@@ -24,17 +25,6 @@ function isEven(number){
 
 //isVowel function
 function isVowel(vowel){
-    //Trying to get it check if vowel without being capital or not so far have not got it to work :(
-    // let checker = ["a", "e", "i", "o", "u"];
-    // let char = vowel.toLowerCase();
-    // // return checker.includes(char);
-    // if(typeof vowel == "string"){
-    //     if (checker.includes(char)){
-    //       return true;
-    //     }
-    // }else {
-    //     return false;
-    // }
     return vowel === "a" || vowel === "A";
 }
 
