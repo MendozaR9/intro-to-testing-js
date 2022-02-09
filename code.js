@@ -5,14 +5,9 @@ function helloWorld() {
 
 //sayHello function
 function sayHello(name){
-    if (name === true){
-        return "Hello, World!";
-    }else if (name === false){
-      return "Hello, World!";
-    }else  if( name === undefined){
-        return "Hello, World!"
-    }
-    else{
+   if (typeof name !== "string" || !isNaN(name)){
+       return "Hello, World!";
+   } else{
         return "Hello, " + name +"!";
     }
 }
